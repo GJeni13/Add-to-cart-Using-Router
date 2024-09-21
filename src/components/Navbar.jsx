@@ -6,14 +6,14 @@ const Navbar = ({ cartCount }) => {
     <nav className="flex justify-evenly bg-gradient-to-r from-red-200 to-purple-600 shadow-lg p-2" style={{ fontFamily: 'Lobster' }}>
       <div className="container mx-auto flex justify-between items-center">
         {/* Left side - Logo */}
-        <Link to="/" className="text-2xl font-bold text-blue-600">
+        {/* <Link to="/" className="text-2xl font-bold text-blue-600">
           <img
             src="src/l.png"
             alt="Online Shopping Logo"
             className="h-20 inline-block"
           />
           
-        </Link>
+        </Link> */}
         <p className='text-6xl font-bold text-amber-800' style={{ fontFamily: 'Lobster' }}>My Store</p>
         {/* Right side - Menu */}
         <ul className="flex space-x-12 text-black-800 font-medium text-3xl ">
